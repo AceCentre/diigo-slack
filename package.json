@@ -1,0 +1,26 @@
+{
+  "name": "slack-diigo",
+  "version": "2.5.0",
+  "description": "Simple slack app that allows a user to post a message to the diigo user",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bot",
+    "slack",
+    "chatbot",
+    "slack API",
+    "diigo"
+  ],
+  "author": "Tomomi Imura <opensource@slack.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "qs": "^6.5.1",
+    "tsscmp": "^1.0.6"
+  }
+}
